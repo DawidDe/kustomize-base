@@ -8,7 +8,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "1"
 spec:
   acme:
-    email: "email"
+    email: email
     server: "https://acme-v02.api.letsencrypt.org/directory"
     privateKeySecretRef:
       name: cloudflare-account-key
