@@ -4,6 +4,4 @@ kind: Kustomization
 
 resources:
   - helm/
-  - ingressroute.yaml
-  - certificate.yaml
-  - pvs.yaml
+  - secret-store.yaml
