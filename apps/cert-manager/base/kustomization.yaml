@@ -4,5 +4,4 @@ kind: Kustomization
 
 resources:
   - helm/
-  - clusterissuer.yaml
   - secrets.yaml
