@@ -5,6 +5,5 @@ kind: Kustomization
 helmCharts:
   - name: traefik
     repo: https://traefik.github.io/charts
-    version: 38.0.2
     releaseName: traefik
     namespace: traefik

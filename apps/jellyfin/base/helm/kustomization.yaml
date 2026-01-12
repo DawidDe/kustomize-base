@@ -5,6 +5,5 @@ kind: Kustomization
 helmCharts:
   - name: jellyfin
     repo: https://jellyfin.github.io/jellyfin-helm
-    version: 2.3.0
     releaseName: jellyfin
     namespace: jellyfin

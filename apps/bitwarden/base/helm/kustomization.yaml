@@ -5,6 +5,5 @@ kind: Kustomization
 helmCharts:
   - name: self-host
     repo: https://charts.bitwarden.com/
-    version: 2025.10.1
     releaseName: bitwarden
     namespace: bitwarden
