@@ -2,7 +2,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
+helmCharts:
+  - name: cert-manager
+    repo: https://charts.jetstack.io
+    releaseName: cert-manager
+    namespace: cert-manager
+
 resources:
-  - helm/
   - clusterissuer.yaml
   - secrets.yaml
