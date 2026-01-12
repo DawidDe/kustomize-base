@@ -4,6 +4,6 @@ kind: Kustomization
 
 helmCharts:
   - name: local-path-provisioner
-    repo: oci://dp.apps.rancher.io/charts/local-path-provisioner
+    repo: https://charts.rancher.io
     releaseName: local-path-provisioner
     namespace: local-path-provisioner
