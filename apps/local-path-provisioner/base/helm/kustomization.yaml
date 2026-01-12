@@ -3,7 +3,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 helmCharts:
-  - name: local-path-provisioner
+  - name: rancher/local-path-provisioner
     repo: https://charts.rancher.io
     releaseName: local-path-provisioner
     namespace: local-path-provisioner
